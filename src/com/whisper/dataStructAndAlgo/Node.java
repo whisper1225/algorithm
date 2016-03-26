@@ -2,6 +2,7 @@ package com.whisper.dataStructAndAlgo;
 
 /**
  * Created by phoenix on 2016/3/26.
+ * 链表节点模型
  */
 public class Node {
     private Object element;//数据对象
