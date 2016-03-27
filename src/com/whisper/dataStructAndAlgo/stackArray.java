@@ -6,7 +6,7 @@ import com.whisper.dataStructAndAlgo.interf.Stack;
 /**
  * Created by phoenix on 2016/3/26.
  * 栈的java模型  基于数组的实现 从栈的操作来看 基于数组的实现操作效率非常高
- * 但是如果使用数组要实现栈的深度自动增长，就需要使用数组拷贝
+ * 但是需要类似arraylist那种扩容和缩容机制，来保证空间的利用率
  */
 public class stackArray implements Stack {
     public static final int  CAPACITY = 1024;
