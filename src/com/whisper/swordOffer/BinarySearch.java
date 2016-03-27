@@ -2,6 +2,7 @@ package com.whisper.swordOffer;
 
 /**
  * Created by phoenix on 2016/3/27.
+ * 二分查找乃是基础的基础，江湖传言，如果这个都不能信手拈来，面试官直接在心里会判死刑
  */
 public class BinarySearch {
 
