@@ -7,7 +7,7 @@ def jo_sort(array):
     while (i < j):
         while ((array[i] % 2 ==1)  and i < leng):
             i = i + 1
-        while  ((array[i] % 2 == 0) and j >= 0):
+        while  ((array[j] % 2 == 0) and j >= 0):
             j = j - 1
         if (i < j):
             array[i], array[j] = array[j], array[i]
